@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: main.c arquivo de build ativo",
+            "command": "c:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Estudos_UNIR\\Aprendendo C\\main.c",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "c:\\Users\\eduar\\OneDrive\\Área de Trabalho\\Estudos_UNIR\\Aprendendo C"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
+        }
+    ],
+    "version": "2.0.0"
+}
